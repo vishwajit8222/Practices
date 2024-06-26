@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- add style using style tag -->
+    <style>
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body style="background-color:cornsilk">
+    <!-- this is my first html code -->
+    <header>
+    <!-- add style using inline -->
+    <h1 style="color: rgb(81, 205, 216);"> My Portfolio </h1>
+    </header>
+    <main>
+    <section>
+        <article>
+    <P>Hi! My name is Vishwajit. This is my Portfolio page. </P>
+    <pre> This pre tag is use for showing our spaces. Ex: this is             a space. <br> paragraph tage (p tag ) is consider only one space not accept many spaces.</pre>
+        </article>
+    </section>
+    <hr>
+    <section>
+       <div>
+    <b> Bold </b>
+    <i> Italic </i>
+    <u> Underline</u>
+    <big> Big </big>
+    <small> Small </small>
+       </div>
+    <br>
+     <span>Subscript : H<sub>2</sub>O</span>
+     <P>Superscript : A<sup>n</sup> + B</P>
+    </section>
+    <hr>
+    <section>
+    <a href="https://www.google.com/">Google</a>
+    <br>
+   <a href="https://www.google.com/"><img src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg" alt="GOOGLE LOGO" height="50"</a>
+    <br>
+    <a href="/hello.html">Go to Hello</a>
+    <br>
+    <a href="/hellofolder/hello.html" target="_main">Go to Hello folder through new tab using target attribute.</a>
+    </section>
+    <hr>
+    <section>
+    <img src="/practice/myphoto.jpg" width="150" alt="VISHWJIT PHOTO" height="200">
+    <a href="https://www.youtube.com/watch?v=8ugaeA-nMTc" ><img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p170620_p_v8_az.jpg" height="200" width="150" alt="IRON MAN IMAGE"></a>
+    </section>
+    <section>
+        <ul>
+            <li>Apple</li>
+            <ul>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ul>
+            <li>Banana</li>
+            <ul>
+                <li>color : yellow</li>
+                <li>season : summers</li>
+            </ul>
+            <li>Mango</li>
+            <li>Orange</li>
+        </ul>
+    </section>
+    <section>
+        <ol>
+            <li>Apple</li>
+            <ol>
+                <li>color : red</li>
+                <li>season : winters</li>
+            </ol>
+            <li>Banana</li>
+            <ol>
+                <li>color : yellow</li>
+                <li>season : summers</li>
+            </ol>
+            <li>Mango</li>
+            <li>Orange</li>
+        </ol>
+    </section>
+    <section>
+        <table border="black">
+        <thead>
+            <caption> Student data </caption>
+            <tr>
+                <!-- <th> Name </th>
+                <th> Roll No. </th> -->
+                <th colspan="2">INFORMATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Vishwajit </td>
+                <td> 50 </td>
+            </tr>
+            <tr>
+                <td> Vishh </td>
+                <td> 81 </td>
+            </tr>
+            <tr>
+                <td> Raman </td>
+                <td> 64 </td>
+            </tr>
+        </tbody>
+        </table>
+        <table border="black">
+            <caption>Food Menu</caption>
+            <thead>
+                <tr>
+                  <th rowspan="2">Item</th>
+                  <th colspan="2">Price</th>
+                </tr>
+                <tr>
+                   <th>INR</th>
+                   <th>USD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Frooti</td>
+                  <td>10</td>
+                  <td>0.14</td>
+                </tr>
+                <tr>
+                   <td>Samosa</td>
+                   <td>12</td>
+                   <td>0.17</td>
+                </tr>
+                <tr>
+                   <td>Chips</td>
+                   <td>20</td>
+                   <td>0.20</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h4>Registration Form</h4>
+        <form action="/action.php">
+        <div>
+            <label>
+            <input type="text" placeholder="username">
+            </label>
+            <br><br>
+            <label>
+            <input type="password" placeholder="password">
+            </label>
+        </div>
+            <br><br>
+        <div>
+            <h5>Select your class</h5>
+            <label for="101">
+            <input type="radio" value="XI" name="class" id="101"> class XI
+            </label>
+            <br><br>
+            <label for="102">
+            <input type="radio" value="XII" name="class" id="102"> class XII
+            </label>
+        </div>
+            <br>
+        <div>
+            <h5>Select Fav subjects</h5>
+            <label for="Maths">
+                <input type="checkbox" value="Maths" name="Subject" id="1"> Maths
+            </label>
+            <br><br>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="Subject" id="2"> Physics
+            </label>
+            <br><br>
+            <label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="Subject" id="3"> Chemistry
+            </label>
+            <br><br>
+            <label for="Computer Science">
+                <input type="checkbox" value="Computer Science" name="Subject" id="4"> Computer Science
+            </label>
+        </div>
+            <br>
+        <div>
+            Select your city
+            <select name="City">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <textarea name="Feedback" id="11" placeholder="please give you valuable feedback here" rows=5></textarea>
+        </div>
+            <br>
+        <div>
+            <input  type="submit">
+        </div>
+        </form>
+        <br>
+        <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search in google">
+        <button>search</button>
+        </form>
+    </section>
+
+    <br><br>
+
+<div>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/HcOc7P5BMi4?si=bvCkVRSVKMMUpkR-" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+</div>
+<br><br>
+<div>
+    <video width="560" height="315" src="/practice/myVideo.mp4" controls  loop>
+    </video>
+</div>
+    <!-- <aside>THIS IS A PART OF ADS (Google ADS).</aside> -->
+    </main>
+</body>
+</html>
